@@ -1,2 +1,2 @@
-# Repo_Java
-Java Training - Spring 2022
+# Java Core
+Technosoft Course - Spring 2022
