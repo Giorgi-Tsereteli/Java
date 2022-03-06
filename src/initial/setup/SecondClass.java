@@ -1,4 +1,4 @@
-package initialtest;
+package initial.setup;
 
 public class SecondClass {
 

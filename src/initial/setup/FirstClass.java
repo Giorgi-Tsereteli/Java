@@ -1,12 +1,12 @@
-package initialtest;
+package initial.setup;
 
-public class MyJavaClass {
+public class FirstClass {
 
     public static void main(String[] args) {
 
         System.out.println("Hello World!");
 
-        // Single line comment
+        // Single line comments
 
     }
 
