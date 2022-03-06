@@ -1,4 +1,4 @@
-package Classcode;
+package initialtest;
 
 public class ThirdClass {
 
