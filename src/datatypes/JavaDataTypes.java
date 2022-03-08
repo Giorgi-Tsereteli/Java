@@ -1,6 +1,6 @@
 package datatypes;
 
-public class AssignmentDataTypes {
+public class JavaDataTypes {
     public static void main(String[] args) {
 
 
@@ -43,7 +43,6 @@ public class AssignmentDataTypes {
 
 
         /**
-         *
          * Due: Mar 6 (Sunday)
          *
          * Store values for below scenario in an appropriate variable, and print the same in Console.
