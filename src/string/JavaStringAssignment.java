@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Locale;
+
 public class JavaStringAssignment {
 
     public static void main(String[] args) {
@@ -81,15 +83,19 @@ public class JavaStringAssignment {
          * "QUEEN" -> "Queen"
          */
         String task4 = "kINg";
+        String task4Queen = "QUEEN";
         String task4_L = task4.toLowerCase();
+        String task4Queen_L = task4Queen.toLowerCase();
 
         // Using substring() method
         String task4_T = task4_L.substring(0,1).toUpperCase() + task4_L.substring(1,4);
         System.out.println("\nTask 4:\n1) Convert 'kINg' to Titlecase --> "+task4_T);
 
         // Using replace() method
-        String task4_T2 = task4_T.replace("k","K");
-        System.out.println("2) Convert 'kINg' to Titlecase --> "+task4_T2);
+        String task4Queen_T2 = task4Queen_L.replace("q","Q");
+        System.out.println("2) Convert 'QUEEN' to Titlecase --> "+task4Queen_T2);
+
+
 
 
         /**
