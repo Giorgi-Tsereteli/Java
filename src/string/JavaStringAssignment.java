@@ -92,8 +92,8 @@ public class JavaStringAssignment {
         System.out.println("\nTask 4:\n1) Convert 'kINg' to Titlecase --> "+task4_T);
 
         // Using replace() method
-        String task4Queen_T2 = task4Queen_L.replace("q","Q");
-        System.out.println("2) Convert 'QUEEN' to Titlecase --> "+task4Queen_T2);
+        String task4Queen_T = task4Queen_L.replace("q","Q");
+        System.out.println("2) Convert 'QUEEN' to Titlecase --> "+task4Queen_T);
 
 
 
