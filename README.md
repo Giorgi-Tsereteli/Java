@@ -7,3 +7,4 @@ Manual Test Cases | March 2
 Data Types  | March 6
 Operators  |  March 8
 String Methods  |  March 13
+Arrays & Loops  |  March 20
