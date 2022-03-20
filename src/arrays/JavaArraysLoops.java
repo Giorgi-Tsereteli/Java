@@ -10,8 +10,12 @@ public class JavaArraysLoops {
          * Print the length of country name (NOTE: you CANNOT use length()-method from String class)
          */
         String country = "Ukraine";
-        System.out.println("\n1)\nName of Country --> "+country);
-        System.out.println("Length of word using array method --> "+country.split("").length);
+        System.out.println("\n1)\nCountry Name --> "+country);
+        System.out.println(" - Length using array method --> "+country.split("").length);
+
+        String secondCountry = "United Kingdom";
+        System.out.println("Country Name --> "+secondCountry);
+        System.out.println(" - Word count using array method --> "+secondCountry.split(" ").length);
 
 
         /**
