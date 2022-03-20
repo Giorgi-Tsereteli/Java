@@ -40,7 +40,7 @@ public class JavaArraysLoops {
         System.out.println("Substring Method --> "+abbreviation);
 
         // What if user enters more than 4-word sentence ?
-        // Following loop can accept any length and will store values in variable a
+        // Following loop can accept any sentence length.
         String newAbbreviation="";
         for (int i=0; i<eachWordArray.length; i++){
             String firstChar = eachWordArray[i].substring(0,1);
@@ -84,7 +84,6 @@ public class JavaArraysLoops {
          * if student-score is invalid, print "Invalid student score entered"
          * if max-score is invalid,  print "Invalid max score entered"
          */
-
         System.out.println("\n5)");
         double studentScore = 81;
         int maxScore = 100;
