@@ -29,11 +29,10 @@ public class JavaArraysLoops {
         /**
          * Q3:
          * Create the abbreviation for 4-word sentence
-         * happy birthday to you -> HBTY
          */
-        System.out.println("\n3)\nAbbreviation For 'Stop War In Ukraine'");
-        String slogan = "Stop War In Ukraine";
-        String[] eachWordArray = slogan.split(" ");
+        System.out.println("\n3)\nAbbreviation For Sentences");
+        String firstSentence = "Stop War In Ukraine";
+        String[] eachWordArray = firstSentence.split(" ");
 
         // Not effective (hardcoded for 4 word sentence ONLY)
         String abbreviation = (eachWordArray[0].substring(0,1)+eachWordArray[1].substring(0,1)+eachWordArray[2].substring(0,1)+eachWordArray[3].substring(0,1)).toUpperCase();
@@ -41,12 +40,14 @@ public class JavaArraysLoops {
 
         // What if user enters more than 4-word sentence ?
         // Following loop can accept any sentence length.
-        String newAbbreviation="";
-        for (int i=0; i<eachWordArray.length; i++){
-            String firstChar = eachWordArray[i].substring(0,1);
-            newAbbreviation += firstChar;
+        String secondSentence = "President of the United States";
+        String[] secondEachWordArray = secondSentence.split(" ");
+        String secondAbbreviation="";
+        for (int i=0; i<secondEachWordArray.length; i++){
+            String firstChar = secondEachWordArray[i].substring(0,1).toUpperCase();
+            secondAbbreviation += firstChar;
         }
-        System.out.println("For Loop Example --> "+newAbbreviation);
+        System.out.println("For Loop Example --> "+secondAbbreviation);
 
 
         /**
