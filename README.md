@@ -8,3 +8,5 @@ Data Types  | March 6
 Operators  |  March 8
 String Methods  |  March 13
 Arrays & Loops  |  March 20
+Methods & Objects  |  March 27
+Midterm  |  April 1
