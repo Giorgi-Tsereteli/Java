@@ -13,7 +13,7 @@ public class Methods {
     // I take any value, compare with next value
     // If current value is bigger, I change their indexes
     // I reset loop back to zero using i = -1
-    // I did something similar when practicing. Cool stuff.
+    // I tried doing something similar when practicing. Cool stuff.
     public int[] sortIntArray(int[] inputArray) {
         for (int i = 0; i < inputArray.length-1; i++) {
             if (inputArray[i] > inputArray[i+1]){
@@ -34,10 +34,10 @@ public class Methods {
      * returned value -> 6  (1 + 2 + 3)
      * points: 20
      */
-    // Before midterm, Deepak provided us with interesting article
+    // Before midterm, Deepak provided us with interesting article on manipulating Datatypes
     // I managed to turn int into String
-    // After that its simple, split digits, sum them up and return total
-    // When adding digits together, it's important to turn them back into digits
+    // After that its simple, split digits, place into array, sum them up and return total
+    // When adding digits together, it's important to turn them back into int
     public int sumOfDigits(int num) {
         String number = String.valueOf(num);
         String[] digitArray = number.split("");
@@ -58,8 +58,8 @@ public class Methods {
      */
     // This is very similar to other question that we practiced in class
     // Its in class11 folder, labeled Foysal Question. There I also had to create new array.
-    // Here I used similar logic, found all unique numbers, not equal to one to remove
-    // Made new array, using count of unique numbers as length for new array
+    // Here I used similar logic, found all unique numbers, not equal to users input, which gets removed from array
+    // Made new array, using total count of unique numbers as length for new array
     // After that, iterated original array and only added unique values to new Array
     public int[] removeInt(int[] numberArray, int inputValue){
         int uniqueNumbers=0;
@@ -90,10 +90,10 @@ public class Methods {
      * happy
      * peace
      */
-    // I practiced similar question before when doing course on Udemy
-    // I used outer loop to pick values of first array.
-    // Inner loop grabs every single value of second loop, compares it to current value from first array
-    // Once inner loop runs out of values, it escapes and Outer loop starts cycle again using next value
+    // I practiced similar question before, when doing Rahul Shetty courses on Udemy.com
+    // I used outer loop to pick values of 1st array.
+    // Inner loop grabs every single value of 2nd array and compares it to current value from 1st array.
+    // Once inner loop runs out of values, it escapes and Outer loop starts cycle again using next value.
      public void findCommonStrings(String[] arrOne, String[] arrTwo) {
         for (int i = 0; i < arrOne.length; i++) {
             for (int j = 0; j < arrTwo.length; j++) {
