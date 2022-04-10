@@ -10,3 +10,5 @@ String Methods  |  March 13
 Arrays & Loops  |  March 20
 Methods & Objects  |  March 27
 Midterm  |  April 1
+Date & Calendar  |  April 6
+Collection  |  April 10
