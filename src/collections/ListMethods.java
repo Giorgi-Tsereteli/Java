@@ -71,12 +71,10 @@ public class ListMethods {
         // first turn inputArr into list
         ArrayList<Integer> list = new ArrayList<>();
         for (int i : inputArr) {
-            list.add(i); // <-- values
+            if (i != toRemove) {
+                list.add(i);
+            }
         }
-
-        //remove inputValue
-        list.remove(new Integer(toRemove));
-
         //turn list back into Array
         int[] newArray = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {

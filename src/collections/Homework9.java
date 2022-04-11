@@ -3,7 +3,7 @@ package collections;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Homework9 extends  ListMethods{
+public class Homework9 extends ListMethods{
 
     public static void main(String[] args) {
 
@@ -64,7 +64,7 @@ public class Homework9 extends  ListMethods{
 
 
         System.out.println("\nQ3) Remove int value from given intArray ");
-        int[] numArr = { 100, 122, 23, 4, 105, 200, 50 };
+        int[] numArr = { 100, 122, 23, 4, 105, 200, 200, 200, 50, 200 };
         System.out.println(Arrays.toString(numArr));
         int toRemove = 200;
         System.out.println("Remove value - " + toRemove);
