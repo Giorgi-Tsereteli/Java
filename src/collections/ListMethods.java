@@ -60,11 +60,10 @@ public class ListMethods {
 
     // I needed a bit of Google search for this exercise
     // There are multiple ways of turning List into Array and vice-versa
-    // Trick is to find way around primitive datatype such as int
+    // I practiced few other solutions and also liked stream() method
 
-    // I practiced few other solutions and also liked stream() methods
     // Here, I simply use for loops to pull values from collection and add into array
-    // To remove value, you need to provide 'new Integer' so java knows its a value and not index
+    // To remove value(s), simply make condition that you can only add values not equal to value being removed.
     // When converting List to Array, I set the length to size(); of the List.
     public static int[] removeNum (int[] inputArr, int toRemove){
 
