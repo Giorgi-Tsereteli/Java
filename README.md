@@ -13,3 +13,4 @@ Midterm  |  April 1
 Date & Calendar  |  April 6
 List & ArrayList  |  April 10
 Set & HashSet  |  April 12
+Map & HashMap  |  April 16
