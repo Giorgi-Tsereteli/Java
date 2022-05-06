@@ -1,4 +1,4 @@
-package midterm;
+package CodeTest1;
 
 import java.util.Arrays;
 

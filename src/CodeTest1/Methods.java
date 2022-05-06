@@ -1,4 +1,4 @@
-package midterm;
+package CodeTest1;
 public class Methods {
 
     /**
@@ -12,6 +12,7 @@ public class Methods {
     // For me, swapping number is easier to understand
     // I take any value, compare with next value
     // If current value is bigger, I change their indexes
+    // I use length -1 bcz in the condition I write i+1. Otherwise, it will be indexOutOfBounds exception
     // I reset loop back to zero using i = -1
     // I tried doing something similar when practicing. Cool stuff.
     public int[] sortIntArray(int[] inputArray) {
@@ -58,7 +59,7 @@ public class Methods {
      */
     // This is very similar to other question that we practiced in class
     // Its in class11 folder, labeled Foysal Question. There I also had to create new array.
-    // Here I used similar logic, found all unique numbers, not equal to users input, which gets removed from array
+    // Here I used similar logic, found all unique numbers, not equal to users input which gets removed from array
     // Made new array, using total count of unique numbers as length for new array
     // After that, iterated original array and only added unique values to new Array
     public int[] removeInt(int[] numberArray, int inputValue){
@@ -78,6 +79,8 @@ public class Methods {
         }
         return updatedArr;
     }
+
+
 
 
     /**
